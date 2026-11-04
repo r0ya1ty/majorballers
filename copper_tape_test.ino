@@ -1,12 +1,12 @@
 #include <Servo.h>
 
-const int switchPin = 2; // Pin connected to Row 10
+const int switchPin = 2; // Pin connected to Row 10 holy crap
 const int servoPin = 9;  // Pin connected to orange servo wire
 
 Servo myServo;
 
 void setup() {
-  pinMode(switchPin, INPUT); // Reads HIGH when tape touches 5V
+  pinMode(switchPin, INPUT); // Reads HIGH when tape touches 5V yay
   myServo.attach(servoPin);
   myServo.write(0);          // Starting rest position
 }
