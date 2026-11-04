@@ -20,5 +20,5 @@ void loop() {
     myServo.write(0);  // Return to 0 degrees when opened
   }
 
-  delay(20);
+  delay(40);
 }
